@@ -1,0 +1,75 @@
+*{
+	margin: o;
+	padding: 0;
+	font-family: 'Yuji Mai', serif;
+	background: #F9F1FD;
+}
+.wrapper{
+	height: 100vh;
+}
+.top-bar{
+	width: 80%;
+	height: 50px;
+	margin: 20px auto;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo img{
+	width: 150px;
+	margin: 8px auto;
+	cursor: pointer;
+
+}
+.menu-bar{
+	width: 60%;
+	float: left;
+	text-align:center;
+}
+.menu-bar ul li{
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	color: #000;
+	margin: 15px 20px;
+	padding-top: 5px;
+}
+.active,.menu-bar ul li: hover {
+	border-top: 2px solid #2c97e4;
+}
+.search-box{
+	width: 20%;
+	float: right;
+}
+.input-search{
+	margin: 35px auto;
+	display: inline-flex;
+	border-bottom: 1px solid #2c97e4;
+
+}
+.imput-search input{
+	float: right;
+	padding: 5px;
+	box-shadow: none;
+	outline: none;
+	border: 0;
+	background: transparent;
+}
+.search-icon .fa{
+	color: #2c97e4;
+}
+
+.hero{
+	width: 40%;
+	height: 20%;
+	margin-top: -450px;
+	position: relative;
+	margin-left: 100px;
+}
+.play-btn{
+	width: 300px;
+	height: 200px;
+	margin-left:500px;
+	margin-top: -450px;
+}
